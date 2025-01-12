@@ -4,8 +4,8 @@ int main()
 {
 	int sum = 0, val = 50;
 
-	while (val++ <= 100) {
-		sum += val;
+	while (val <= 100) {
+		sum += val++;
 	}
 
 	std::cout << "The sum of the numbers from 50 to 100 is " << sum 
